@@ -1,0 +1,16 @@
+import Section from "@/components/Section";
+import CtaButton from "@/components/CtaButton";
+
+export default function Home() {
+  return (
+    <>
+      <Section title="A Structured Women’s Wellness System Built for Real Progress">
+        <p className="mb-6 max-w-xl text-gray-600">
+          Guided strength training, recovery, and accountability designed to help women build confidence,
+          consistency, and results—without guessing or burning out.
+        </p>
+        <CtaButton />
+      </Section>
+    </>
+  );
+}
